@@ -20,9 +20,7 @@ Created on %(date)s
 ###################################
 # Import standard library imports #
 ###################################
-import importlib
-import os
-import time
+import config.py
 
 ######################################
 # Import related third party imports #
@@ -44,45 +42,17 @@ importlib.reload(importlib)
 # Constants #
 #############
 
-# Working directory
-WORK_DIR = os.getcwd()
-# Application Directory
-APP_DIR = os.path.split(os.getcwd())[0]
-
-# Configure How dates appear
-DATE = date.today().isoformat()
-# Configure location of you selenium driver (eg Geko)
-GEKOPATH = "/home/sampson/Applications/geko"
 
 
-#######################
-# Logging information #
-#######################
-LOG_FILE = "file.log"
-# Log Directory
-LOG_DIR = APP_DIR + "/logs"
-# Defualt LOG_LEVEL = WARNING. Must be UPPER text
-LOG_LEVEL = logging.DEBUG
-#LOG_LEVEL = logging.INFO
-#LOG_LEVEL = logging.WARNING
-#LOG_LEVEL = logging.ERROR
-LOG_FILE = LOG_DIR + "/pystock.log"
-LOG_FORMAT = "%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s"
-logging.basicConfig(filename=LOG_FILE, level=LOG_LEVEL,
-                    format=LOG_FORMAT)
-
-##########################
-# Set OS Environment PATH#
-##########################
-
-# os.environ['PATH'] += ':' + GEKOPATH
-
+    * 
 
 
 # Main function
 
 def main():
     print("Hello World")
+    print("Temp Dir: ", TEMP_DIR)
+    
 
 
 if __name__ == '__main__':

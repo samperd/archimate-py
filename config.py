@@ -22,7 +22,8 @@ Created on %(date)s
 ###################################
 import importlib
 import os
-import time
+import datetime
+import logging
 
 ######################################
 # Import related third party imports #
@@ -49,8 +50,11 @@ WORK_DIR = os.getcwd()
 # Application Directory
 APP_DIR = os.path.split(os.getcwd())[0]
 
+# Temp Directory
+TEMP_DIR = WORK_DIR + "/temp"
+
 # Configure How dates appear
-DATE = date.today().isoformat()
+DATE = datetime.date.today().isoformat()
 # Configure location of you selenium driver (eg Geko)
 GEKOPATH = "/home/sampson/Applications/geko"
 
@@ -66,7 +70,7 @@ LOG_LEVEL = logging.DEBUG
 #LOG_LEVEL = logging.INFO
 #LOG_LEVEL = logging.WARNING
 #LOG_LEVEL = logging.ERROR
-LOG_FILE = LOG_DIR + "/pystock.log"
+LOG_FILE = LOG_DIR + "/log.txt"
 LOG_FORMAT = "%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s"
 logging.basicConfig(filename=LOG_FILE, level=LOG_LEVEL,
                     format=LOG_FORMAT)
