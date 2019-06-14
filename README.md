@@ -38,5 +38,10 @@ Install some required packages
 ### Linux
 * CD to repository
 * CD to ./xslt directory
-* xsltproc FILENAME.xslt ./data/input/INPUT.xml ./data/output/OUTPUT.EXTENSION
-* Example: xsltproc lookup.xsl ./data/input/acts-and-regs/lookup.xml ./data/output/acts-and-regs/lookup.html
+* xsltproc -o ./data/output/OUTPUT.EXTENSION FILENAME.xslt ./data/input/INPUT.xml 
+* Example: 
+
+~~~~
+localhost:$ xsltproc -o ./data/output/acts-and-regs/lookup.html lookup.xsl ./data/input/acts-and-regs/lookup.xml 
+localhost:$ less/data/output/acts-and-regs/lookup.html
+~~~~
