@@ -12,7 +12,7 @@ FileName="${Element}_${UUID}.xml"
 git pull
 # Run XSLT
 # saxon-xslt INPUTFILE XSLTFILE parametername=parametervalue > OUTPUTFILE
-saxon-xslt ../data/input/acts-and-regs/Legis.xml ../xslt/acts-and-regs/legis2archimate.xsl uuid=${UUID} outdir=$OutDir filename=$FileName > ../model/$Layer/$FileName
+saxon-xslt ../data/input/acts-and-regs/Legis.xml ../xslt/acts-and-regs/legis2archimate.xsl uuid=${UUID} outdir=${OutDir} filename=${FileName} > ../model/${Layer}/${FileName}
 # Add file to git
 git add ../model/$Layer/${Element}_${UUID}.xml
 # commit changes to git
