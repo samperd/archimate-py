@@ -5,26 +5,14 @@
     id="6fee7f3c-3223-459b-8568-cc1e34eddd67">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="53d7d385-b5b1-4ad2-864d-970fa3a7f18a">
+      id="d050953e-2682-4431-aad0-ee5c9cd00015">
     <bounds
-        x="132"
-        y="120"
+        x="172"
+        y="340"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_520f9f36-3c72-4d59-b9a2-2abecfdd878a.xml#520f9f36-3c72-4d59-b9a2-2abecfdd878a"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="b2aecaf7-ee1c-4b2f-b7ee-405bd2ece3aa">
-    <bounds
-        x="132"
-        y="48"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Driver"
-        href="Driver_0b30330a-3736-4de3-9f1e-d1caccfb29ee.xml#0b30330a-3736-4de3-9f1e-d1caccfb29ee"/>
   </children>
 </archimate:ArchimateDiagramModel>
