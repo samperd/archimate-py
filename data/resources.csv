@@ -1,3 +1,4 @@
-UUID,fullName,shortName,resDescription,metaURL,resURL,reader
-ff56de85-f8b9-4719-8dff-ecf362adf0af,"Consolidated federal Acts and regulations - Bulk XML file","fedactsregsbulkxml","The bulk XML files for all consolidated federal Acts and Regulations is a complete collection of the full document XML files for all consolidated Acts and regulations found on the Justice Laws Website.","https://open.canada.ca/data/en/dataset/ff56de85-f8b9-4719-8dff-ecf362adf0af","ftp://205.193.86.89/data.zip"
-22090865-f8a6-4b83-9bad-e9d61f26a821,"List of legal department names and their respective numbers",""legaldepnamesandnums",""
+UUID,fullName,dirName,resDescription,metaURL,resURL,reader
+ff56de85-f8b9-4719-8dff-ecf362adf0af,"Consolidated federal Acts and regulations - Bulk XML file","acts-and-regs-bulk","The bulk XML files for all consolidated federal Acts and Regulations is a complete collection of the full document XML files for all consolidated Acts and regulations found on the Justice Laws Website.","https://open.canada.ca/data/en/dataset/ff56de85-f8b9-4719-8dff-ecf362adf0af","ftp://205.193.86.89/data.zip"
+22090865-f8a6-4b83-9bad-e9d61f26a821,"List of legal department names and their respective numbers","min-dept",""
+eb0dee21-9123-4d0d-b11d-0763fa1fb403,"Consolidated Acts and regulations in XML","acts-and-regs","https://open.canada.ca/data/en/dataset/eb0dee21-9123-4d0d-b11d-0763fa1fb403","http://laws-lois.justice.gc.ca/eng/XML/Legis.xml",""

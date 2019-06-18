@@ -29,27 +29,30 @@
         * LICENSE
         * CONTRIBUTION/CONTRIBUTORS
     * non-Standard GIT MD files from /doc directory
-    
+
 ## Future enhancements
 
 ### General Features
 * publish an archimate model for archimate-py using archi tool
 * execute script from within architool plugin
 * convert from Python lib to Architool plugin (java?)
+* user [xQuery](https://www.w3schools.com/xml/xquery_intro.asp) to generate summary stats and details about a model
 
 ### Application Interfaces
-* Archi Command Line Interface
-    * 
+* Interface with Archi Command Line Interface
+  * create a new model from output
+  * add to existing models
+  * extract from existing models
 
 
 ### Readers
 * Archimate Exchange Format
-    * simple interface to select which 
+    * simple interface to select which
 * GIT Repos
     * import models from other repos
     * import components of models from other repos
         * interface
-        * other 
+        * other
 * Business Process Modeling Notation (BPMN)
     * http://www.bpmn.org/
 * XML Process Definition Language (XPDL)
@@ -67,4 +70,4 @@
 * Other XML formats
     * UML
     * XPDL
-    * 
+    *
