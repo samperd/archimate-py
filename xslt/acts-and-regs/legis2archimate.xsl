@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xsl:stylesheet version="2.0" 
+<xsl:stylesheet version="2.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:archimate="http://www.archimatetool.com/archimate">
   <xsl:output version="1.0"
@@ -8,6 +8,7 @@
     standalone="yes"
     indent="yes"
     xmlns:archimate="http://www.archimatetool.com/archimate"/>
+    <xsl:param name="uuid" as="xs:string" required="yes"/>
 <xsl:template match="/">
   <archimate:Driver>
     <xsl:attribute name="name"><xsl:text>Policy on Privacy Protection</xsl:text></xsl:attribute>
@@ -16,6 +17,10 @@
   <properties>
     <xsl:attribute name="key"><xsl:text>Type</xsl:text></xsl:attribute>
     <xsl:attribute name="value"><xsl:text>Policy</xsl:text></xsl:attribute>
+  </properties>
+  <properties>
+    <xsl:attribute name="key"><xsl:text>UUID</xsl:text></xsl:attribute>
+    <xsl:attribute name="value"><xsl:value-of select = "$uuid" /></xsl:attribute>
   </properties>
 
 </archimate:Driver>
