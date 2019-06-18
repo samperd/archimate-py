@@ -1,0 +1,9 @@
+<archimate:Driver
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sample Driver"
+    id="520f9f36-3c72-4d59-b9a2-2abecfdd878a"
+    documentation="Sample Driver">
+  <properties
+      key="Sample"
+      value="Sample value"/>
+</archimate:Driver>
