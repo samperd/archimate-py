@@ -9,7 +9,11 @@
     indent="yes"
     xmlns:archimate="http://www.archimatetool.com/archimate"/>
     <xsl:param name="uuid" as="xs:string" required="yes"/>
+    <xsl:param name="outdir" as="xs:string" required="yes"/>
+    <xsl:param name="filename" as="xs:string" required="yes"/>
+
 <xsl:template match="/">
+  <xsl:result-document href="${$outdir}/{$filename}" method="xml">
   <archimate:Driver>
     <xsl:attribute name="name"><xsl:text>Policy on Privacy Protection</xsl:text></xsl:attribute>
     <xsl:attribute name="id"><xsl:text>0b30330a-3736-4de3-9f1e-d1caccfb29ee</xsl:text></xsl:attribute>
