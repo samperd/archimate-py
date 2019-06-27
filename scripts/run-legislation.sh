@@ -8,19 +8,19 @@ OutDir="../model/$Layer/"
 FileName="${Element}_${UUID}.xml"
 
 # read resources file
-git add run-legislation.#!/bin/sh
-git commit -m "Updated run-legislation"
+# git add run-legislation.#!/bin/sh
+# git commit -m "Updated run-legislation"
 # Pull new changes from the repository
-git pull
+# git pull
 # Run XSLT
 # saxon-xslt INPUTFILE XSLTFILE parametername=parametervalue > OUTPUTFILE
 # saxon-xslt ../data/input/acts-and-regs/Legis.xml ../xslt/acts-and-regs/legis2archimate.xsl uuid=${UUID} outdir=${OutDir} filename=${FileName} > ../model/${Layer}/${FileName}
-saxon-xslt -v ../data/input/acts-and-regs/Legis.xml ../xslt/acts-and-regs/legis2archimate.xsl uuid=${UUID} outdir=${OutDir} filename=${FileName}
+saxonb-xslt -ext:on ../data/input/acts-and-regs/Legis.xml ../xslt/acts-and-regs/legis2archimate.xsl uuid=$UUID outdir=$OutDir
 
 # Add file to git
-git add ../model/$Layer/${Element}_${UUID}.xml
+# git add ../model/$Layer/${Element}_${UUID}.xml
 # commit changes to git
-git commit -m "$Message"
+# git commit -m "$Message"
 # Git puish
-git push
+# git push
 # use Archi command line to pull new model changes?
