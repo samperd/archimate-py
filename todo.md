@@ -10,17 +10,21 @@
 * Build a CSV linking to acquired resources
 * build an internal library format as cross walk with arhimate
 * tests
+* create man pages https://www.cyberciti.biz/faq/linux-unix-creating-a-manpage/
 
 ### Readers
+* Validate input against schema and DTD
 * one/each of the resources
     * GC Consolidated Acts / Regs
     * TBS Policies / Directives / Standards / Tools
 * gitlab issues (using tags and templates)
 * github issues (using tags and templates)
+* archi CSV
 
 ### Writers
+* Validate output against schema and DTD
 * Archimate exchange format
-* CSV
+* Archi CSV
 * Git repo (to write Archimate exchange format to)
     * gitlab issues (using tags and templates)
     * github issues (using tags and templates)
@@ -29,6 +33,16 @@
         * LICENSE
         * CONTRIBUTION/CONTRIBUTORS
     * non-Standard GIT MD files from /doc directory
+
+### Transformers (XSLT)
+* markdown to archi snippet and archimate
+* Legislation list to archi snippet and archimate exchange
+* Individual Legislation to archi snippet and archimate exchange
+* Archi to CSV
+* CSV to Archi
+* Archi to archimate
+* Archimate to Archimate
+
 
 ## Future enhancements
 
