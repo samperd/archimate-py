@@ -8,6 +8,9 @@ OutDir="../data/output/model/$Layer"
 #OutDir="../model/$Layer/"
 FileName="${Element}_${UUID}.xml"
 
+# Pre-processing clean up
+rm ../data/output/model/motivation/*.xml
+
 # read resources file
 # git add run-legislation.#!/bin/sh
 # git commit -m "Updated run-legislation"
