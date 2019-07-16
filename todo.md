@@ -71,3 +71,15 @@
     * UML
     * XPDL
     *
+
+
+##  Source Documents:
+* Consolidated Acts:https://laws-lois.justice.gc.ca/eng/acts/
+* Consolidated Acts Bulk:
+* Consolidated Regulations: https://laws-lois.justice.gc.ca/eng/regulations/
+* Annual Statutes: https://laws-lois.justice.gc.ca/eng/AnnualStatutes/index.html
+* Statutes Repeal Reports: https://laws-lois.justice.gc.ca/eng/Reports/
+* Constitutional Documents: https://laws-lois.justice.gc.ca/eng/Const/Const_index.html
+* Public Statutes and Responsible Ministers: https://laws-lois.justice.gc.ca/eng/TablePublicStatutes/index.html
+* Private Acts: https://laws-lois.justice.gc.ca/eng/TablePrivateActs/index.html
+* index of Statutory Instruments: https://laws-lois.justice.gc.ca/eng/IndexStatutoryInstruments/
