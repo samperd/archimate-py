@@ -11,7 +11,7 @@
 
   <xsl:variable name="uid" as="xs:string" select="UniqueId" />
 <xsl:variable name="lang" as="xs:string" select="Statute/@xml:lang" />
-<xsl:variable name="filename" as="xs:string" select="concat($outdir,'/',$element,'-',$uuid,'-',$lang,'.xml')" />
+<xsl:variable name="filename" as="xs:string" select="concat($outdir,'/',$element,'-Legis-',$uuid,'-',$lang,'.xml')" />
 
 
   <!-- <xsl:variable name="outdir">
@@ -74,6 +74,14 @@
     <properties>
       <xsl:attribute name="key"><xsl:text>Assented-To</xsl:text></xsl:attribute>
       <xsl:attribute name="value"><xsl:value-of select = "Identification/BillHistory/Stages[@stage='assented-to']/Date/string-join(YYYY|MM|DD,'-')" /></xsl:attribute>
+    </properties>
+    <properties>
+      <xsl:attribute name="key"><xsl:text>Git-File-Name</xsl:text></xsl:attribute>
+      <xsl:attribute name="value"><xsl:value-of select = "concat($element,'-Legis-',$uuid,'-',$lang,'.xml')" /></xsl:attribute>
+    </properties>
+    <properties>
+      <xsl:attribute name="key"><xsl:text>Object-UUID</xsl:text></xsl:attribute>
+      <xsl:attribute name="value"><xsl:value-of select = "$uuid" /></xsl:attribute>
     </properties>
     <xsl:call-template name="stakeholders"/>
     </archimate:Driver>
